@@ -1,0 +1,17 @@
+:root {
+    --cor-de-fundo:#051D3B;
+    --fonte-principal:'Inter', sans-serif;
+    --fonte-codigo:'Roboto Mono', monospace;
+    --azul-claro:#ffffff29;
+    --cor-da-fonte:#FFFFFF;
+    --opacidade:0.64;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}

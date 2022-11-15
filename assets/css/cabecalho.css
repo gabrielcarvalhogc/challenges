@@ -1,0 +1,48 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.cabecalho__logo {
+    width: 15%;
+}
+
+.cabecalho__busca {
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: 8px;
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    height: 3.5rem;
+    padding-left: 1rem;
+    width: 50%;
+}
+
+.cabecalho__busca::placeholder {
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    opacity: var(--opacidade);
+}
+
+.cabecalho-perfil {
+    align-items: center;
+    background: var(--cor-de-fundo) url('../img/harry.png') no-repeat left;
+    display: flex;
+    margin-right: 2rem;
+    padding: 1.2rem 0 1.2rem 2rem;
+    text-decoration: none;
+}
+
+.cabecalho-perfil:hover {
+    opacity: var(--opacidade);
+}
+
+.cabecalho__nome {
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    padding-left: .6rem;
+}
