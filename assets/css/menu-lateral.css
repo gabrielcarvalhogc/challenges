@@ -1,0 +1,35 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    width: calc(25% - 1.5rem);
+}
+
+.menu-lateral__titulo {
+    font-size: .8rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+}
+
+.menu-lateral__link {
+    align-items: center;
+    display: flex;
+    margin: 1rem 0 2rem 0;
+    text-decoration: none;
+}
+
+.menu-lateral__link:hover {
+    opacity: var(--opacidade);
+}
+
+.lista__img {
+    background-color: var(--azul-claro);
+    border-radius: 1rem;
+    margin-right: .5rem;
+    padding: .7rem;
+}
+
+.lista__menu {
+    color: var(--cor-da-fonte);
+    list-style: none;
+}

@@ -2,7 +2,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
+    margin: 1rem 0 3rem 0;
 }
 
 .cabecalho__logo {
@@ -10,11 +10,9 @@
 }
 
 .cabecalho__busca {
-    background-color: var(--azul-claro);
+    background-color: var(--cinza-claro);
     border: none;
     border-radius: 8px;
-    color: var(--cor-da-fonte);
-    font-family: var(--fonte-principal);
     font-size: 16px;
     height: 3.5rem;
     padding-left: 1rem;
@@ -23,7 +21,6 @@
 
 .cabecalho__busca::placeholder {
     color: var(--cor-da-fonte);
-    font-family: var(--fonte-principal);
     font-size: 1rem;
     opacity: var(--opacidade);
 }
@@ -43,6 +40,5 @@
 
 .cabecalho__nome {
     color: var(--cor-da-fonte);
-    font-family: var(--fonte-principal);
     padding-left: .6rem;
 }

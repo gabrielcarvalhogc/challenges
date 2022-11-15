@@ -2,7 +2,8 @@
     --cor-de-fundo:#051D3B;
     --fonte-principal:'Inter', sans-serif;
     --fonte-codigo:'Roboto Mono', monospace;
-    --azul-claro:#ffffff29;
+    --cinza-claro:#ffffff29;
+    --azul-claro:#5081FB;
     --cor-da-fonte:#FFFFFF;
     --opacidade:0.64;
 }
@@ -14,4 +15,6 @@
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte);
 }
