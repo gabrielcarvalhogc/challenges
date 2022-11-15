@@ -12,24 +12,24 @@
 .cabecalho__busca {
     background-color: var(--cinza-claro);
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: .5rem;
+    font-size: 1rem;
     height: 3.5rem;
-    padding-left: 1rem;
-    width: 50%;
+    width: 50vw;
 }
 
 .cabecalho__busca::placeholder {
     color: var(--cor-da-fonte);
     font-size: 1rem;
     opacity: var(--opacidade);
+    padding-left: 1rem;
 }
 
 .cabecalho-perfil {
     align-items: center;
     background: var(--cor-de-fundo) url('../img/harry.png') no-repeat left;
     display: flex;
-    margin-right: 2rem;
+    margin: 0 4rem;
     padding: 1.2rem 0 1.2rem 2rem;
     text-decoration: none;
 }
