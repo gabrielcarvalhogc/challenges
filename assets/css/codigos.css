@@ -1,0 +1,20 @@
+.codigos {
+    padding: 2rem;
+    background-color: var(--azul-claro);
+    display: flex;
+    width: 50vw;
+    border-radius: 1rem;
+    font-family: var(--fonte-codigo);
+}
+
+.codigo-container {
+    background-color: black;
+    height: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.paragrafo {
+    display: inline;
+    margin: 1rem 0;
+}

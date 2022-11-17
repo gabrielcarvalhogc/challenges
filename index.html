@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/menu-lateral.css">
     <link rel="stylesheet" href="./assets/css/menu-seu-projeto.css">
     <link rel="stylesheet" href="./assets/css/menu-personalizacao.css">
+    <link rel="stylesheet" href="./assets/css/codigos.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -40,9 +41,20 @@
             </ul>
         </nav>
 
-        <nav class="codigos">
-            <h1>codigos</h1>
-        </nav>
+        <div class="codigos">
+            <div class="codigo-container">
+                <p class="paragrafo">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)</p><br>
+                <p class="paragrafo">const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)</p><br>
+                <p class="paragrafo">const unfold = (f, seed) => {</p><br>
+                <p class="paragrafo">const go = (f, seed, acc) => {</p><br>
+                    <p class="paragrafo">const res = f(seed)</p><br>
+                    <p class="paragrafo">return res ? go(f, res[1], acc.concat([res[0]])) : acc</p><br>
+                <p class="paragrafo">}</p><br>
+                <p class="paragrafo">return go(f, seed, [])</p><br>
+                <p class="paragrafo">}</p><br>
+            </div>
+
+        </div>
 
         <div class="menu-lateral-direita">
             <nav class="seu-projeto">
