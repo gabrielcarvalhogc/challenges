@@ -1,0 +1,57 @@
+.personalizacao {
+    width: calc(25% - 1.5rem);
+    margin-left: 1.5rem;
+}
+
+.personalizacao__titulo {
+    font-size: .8rem;
+    letter-spacing: .4rem;
+    margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
+}
+
+.personalizacao__opcoes {
+    background-color: var(--cinza-claro);
+    border: none;
+    border-radius: .5rem;
+    color: var(--cor-da-fonte);
+    font-size: 1rem;
+    height: 3rem;
+    margin: .5rem 0;
+    padding-left: .5rem;
+    width: 21vw;
+    opacity: var(--opacidade);
+}
+
+
+.personalizacao__escolhas {
+    color: black;
+}
+
+.personalizacao__cores {
+    border: 1px solid var(--cor-da-fonte);
+    border-radius: .5rem;
+    background-color: var(--cor-de-fundo);
+    display: block;
+    width: 21vw;
+    height: 3rem;
+    padding: .2rem;
+    margin: 1rem 0;
+}
+
+.personalizacao__salvar {
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: .5rem;
+    color: var(--cor-de-fundo);
+    font-size: 1rem;
+    height: 3rem;
+    margin: .5rem 0;
+    padding-left: .5rem;
+    width: 21vw;
+
+}
+
+.personalizacao__salvar:hover {
+    opacity: var(--opacidade);
+}

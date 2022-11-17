@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/menu-lateral.css">
     <link rel="stylesheet" href="./assets/css/menu-seu-projeto.css">
+    <link rel="stylesheet" href="./assets/css/menu-personalizacao.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -43,13 +44,28 @@
             <h1>codigos</h1>
         </nav>
 
-        <nav class="seu-projeto">
-            <h2 class="seu-projeto__titulo">Seu projeto</h2>
+        <div class="menu-lateral-direita">
+            <nav class="seu-projeto">
+                <h2 class="seu-projeto__titulo">Seu projeto</h2>
+                <input type="text" placeholder="Nome do seu projeto" class="seu-projeto__campo seu-projeto__nome">
+                <input type="text" placeholder="Descrição do seu projeto" class="seu-projeto__campo seu-projeto__descricao">
+            </nav>
 
-            <input type="text" placeholder="Nome do seu projeto" class="seu-projeto__campo seu-projeto__nome">
+            <nav class="personalizacao">
+                <h2 class="personalizacao__titulo">Personalização</h2>
 
-            <input type="text" placeholder="Descrição do seu projeto" class="seu-projeto__campo seu-projeto__descricao">
-        </nav>
+                <label for="linguagem" class="personalizacao__label"></label>
+                <select name="linguagem" id="linguagem" class="personalizacao__opcoes">
+                    <option value="javascript" class="personalizacao__escolhas">Javascript</option>
+                    <option value="css" class="personalizacao__escolhas">CSS</option>
+                    <option value="html" class="personalizacao__escolhas">HTML</option>
+                </select>
+
+                <input type="color" name="" id="" class="personalizacao__cores">
+
+                <input type="submit" value="Salvar projeto" class="personalizacao__salvar">
+            </nav>
+        </div>
     </main>
 </body>
 </html>
