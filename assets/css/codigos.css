@@ -1,7 +1,6 @@
 .codigos {
     padding: 2rem;
     background-color: var(--azul-claro);
-    display: flex;
     width: 50vw;
     border-radius: 1rem;
     font-family: var(--fonte-codigo);
@@ -21,5 +20,17 @@
 
 
 .codigo__botao {
-    display: inline;
+    margin: 5rem 0; 
+    width: 50vw;
+    height: 3rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #5081fb14;
+    color: var(--cor-da-fonte);
+    font-size: 1rem;
+}
+
+.codigo__botao:hover {
+    background-color: #5080fb49;
+    transition: .2s;
 }
